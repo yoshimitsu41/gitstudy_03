@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="images/fav.png" />
+  <!-- <meta name="robots" content="index, follow"> -->
+  <meta name="format-detection" content="telephone=no">
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="css/reset.css" >
+  <link rel="stylesheet" type="text/css" href="css/style.css" >
+  
+  <title>サイトタイトル</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+</head>
+
+<body>
+  <header>
+    <ul>
+      <li>トップ</li>
+      <li>会社概要</li>
+      <li>問い合わせ</li>
+      <li>問い合わせ</li>
+      <li>問い合わせ</li>
+    </ul>
+  </header>
+
+  <main></main>
+
+  <footer></footer>
+  <!-- js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script>
+    // https://github.com/protonet/jquery.inview /で対応
+    $('.scroll').on('inview', function () { // .sxrollが表示されたら
+      $(this).addClass('active'); //処理を記述
+    });
+  </script>
+</body>
+
+</html>
